@@ -9,6 +9,6 @@ EMS support following control modes:
 > Islanding
 > Manual Dispatch
 The code strucuture is as follows:
-> Control code for various modes is writtned in FPGA fabric (RTL)
+> Control code for various modes is writtnen in FPGA fabric (RTL)
 > User interface code (MODBUS TCP, webserver, user parameters) is written in Linux (C language)
 > A zero copy design has been implemented to transfer read data from PS domain (Linux) to PL(FPGA) using CDMA 
