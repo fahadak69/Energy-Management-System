@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="fsbl_a53" location="C:/Users/stch_/OneDrive/Xilinx_ZCU104/btmems_zcu104/fsbl_a53" platform="C:/Users/fahad/OneDrive/FPGA_SoC_Development/Working/btmems_zcu104_2023p1/btmems_zcu104/btmzcu104_wrapper/export/btmzcu104_wrapper/btmzcu104_wrapper.xpfm" platformUID="xilinx:zcu104::0.0(custom)" systemProject="fsbl_a53_system" sysConfig="btmzcu104_wrapper" runtime="C/C++" cpu="standalone" cpuInstance="psu_cortexa53_0" os="standalone" mssSignature="ec5b6bc0873937eb3e62b09f9ace8bb8">
+  <configuration name="Debug" id="xilinx.gnu.arm.a53.exe.debug.232025169">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.arm.a53.exe.release.587141189">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="zynqmp_fsbl" hasBspSettings="true"/>
+</sdkproject:SdkProject>

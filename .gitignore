@@ -1,0 +1,43 @@
+# --- Vivado-specific (Hardware) ---
+# Ignore all auto-generated build and cache folders
+*.cache/
+*.gen/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+.Xil/
+
+# Ignore log and journal files created every time you open Vivado
+*.log
+*.jou
+IDE.log
+ip_upgrade.log
+
+# --- Vitis-specific (Software) ---
+# Ignore the workspace metadata and temp system files
+.metadata/
+.sdk/
+RemoteSystemsTempFiles/
+webtalk/
+.analytics
+
+# Ignore ALL build artifacts for your software projects
+# (This covers folders like 'linux_websrvr', 'mb_client', etc.)
+**/Debug/
+**/Release/
+**/obj/
+**/_ide/
+
+# --- Specifically for your directory ---
+# Exclude the temporary psu_init files if you don't need them
+# (Vivado regenerates these into the SDK/Handoff folder)
+psu_init.html
+
+# --- OS Specific ---
+Thumbs.db
+desktop.ini
+
+#Misc
+/Packages/
+/Source Code/

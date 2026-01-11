@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ASCII"?>
+<systemproject:SystemProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" xmlns:systemproject="http://www.xilinx.com/systemproject" name="gpio_dip_kernelm_system" platform="C:/Users/fahad/OneDrive/FPGA_SoC_Development/Working/btmems_zcu104/btmzcu104_wrapper/export/btmzcu104_wrapper/btmzcu104_wrapper.xpfm" platformUID="xilinx:zcu104::0.0(custom)" sysConfig="btmzcu104_wrapper" runtime="C/C++">
+  <configuration name="Debug">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="gpio_dip_kernelm" domainName="linux" domainPrettyName="linux" appBuildConfig="Debug"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+  <configuration name="Release">
+    <configBuildOptions xsi:type="systemproject:SystemOptions">
+      <applications name="gpio_dip_kernelm" domainName="linux" domainPrettyName="linux" appBuildConfig="Release"/>
+      <options xsi:type="sdsproject:Option" gensdcard="true" dmclkid="0"/>
+    </configBuildOptions>
+  </configuration>
+</systemproject:SystemProject>

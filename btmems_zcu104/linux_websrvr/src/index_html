@@ -1,0 +1,170 @@
+<HTML>
+    <HEAD>
+    <TITLE>Energy Management System</TITLE>
+    </HEAD>
+    <img width:150px;height:150px;' id='base64image' 
+     src='data:image/png;base64,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' />
+    
+    <BODY BGCOLOR = #C8C8C8
+    <div id="container">
+    <b class="rtop">
+     <b class="r1"></b> <b class="r2"></b> <b class="r3"></b> <b class="r4"></b>
+    </b>
+    <h1>Energy Management System </h1>
+    <p>
+    Hello, This is web-based HMI for EMS.
+    </h2>
+    Thank You!!
+    </p>
+    <h3> Controlling the EMS </h3>
+    <p3>
+    Control Battery, PV and Grid Export/Import via the parameters below
+    </p3>
+    <h4>
+    </h4>
+    <style>
+      .hide { position:absolute; top:-1px; left:-1px; width:1px; height:1px; }
+    </style>
+    <iframe name="hiddenFrame" class="hide"></iframe>
+    <form method="post" action="./cgi-bin/linux_websrvr.elf" target="hiddenFrame">
+    BESS Enable(1)/Disable(0) Command
+    <input type="text" name="par1" value="1" style="width: 18px"><br>
+    BESS Charge Limit (Watt)
+    <input type="text" name="par2" value="250000" style="width: 46px"><br>
+    BESS Discharge Limit(Watt)
+    <input type="text" name="par3" value="250000" style="width: 46px"><br>
+    BESS Max Output Energy @ 100% SoC (kWh)
+    <input type="text" name="par19" value="1000000" style="width: 46px"><br>
+    BESS Maximum SoC(% Integer)
+    <input type="text" name="par4" value="99" style="width: 30px"><br>
+    BESS Minimum SoC(% Integer)
+    <input type="text" name="par5" value="1" style="width: 30px"><br>
+    BESS PID Gain Kp
+    <input type="text" name="par6" value="0.05" style="width: 64px"><br>
+    BESS PID Gain Ki
+    <input type="text" name="par7" value="0.02" style="width: 64px"><br>
+    BESS PID Gain Kd
+    <input type="text" name="par8" value="0" style="width: 64px"><br><br>
+    PV Enable(1)/Disable(0) Command
+    <input type="text" name="par9" value="1" style="width: 18px"><br>
+    PV Max Output (Watt)
+    <input type="text" name="par10" value="300000" style="width: 46px"><br>
+    PV PID Gain Kp
+    <input type="text" name="par11" value="0.05" style="width: 64px"><br>
+    PV PID Gain Ki
+    <input type="text" name="par12" value="0.02" style="width: 64px"><br>
+    PV PID Gain Kd
+    <input type="text" name="par13" value="0" style="width: 64px"><br><br>
+    Genset Enable(1)/Disable(0) Command
+    <input type="text" name="par25" value="0" style="width: 18px"><br>
+    Grid Import Limit (Watt)
+    <input type="text" name="par14" value="0" style="width: 46px"><br>
+    Grid Export Limit (Watt)
+    <input type="text" name="par15" value="95000" style="width: 46px"><br>
+    Grid Export Priority (1=Priority Enabled)
+    <input type="text" name="par16" value="1" style="width: 18px"><br>
+    Net Load at POI (Watt, -ve for export)
+    <input type="text" name="par17" value="0" style="width: 46px"><br>
+    Control Mode (1=Peak Shaving, 2=Load Following, 3=Dispatch Optimization)
+    <input type="text" name="par18" value="2" style="width: 24px"><br><br>
+    BESS Island Priority (1 highest, 3 lowest, 0 No Islanding)
+    <input type="text" name="par20" value="1" style="width: 24px"><br><br>
+    Genset Island Priority (1 highest, 3 lowest, 0 No Islanding)
+    <input type="text" name="par21" value="2" style="width: 24px"><br><br>
+    BESS to Another GFM Resource Transfer Margin while Islanded (% BESS SoC)
+    <input type="text" name="par22" value="0.5" style="width: 30px"><br>
+    Min Island Duration with BESS GFM (minutes)
+    <input type="text" name="par23" value="10" style="width: 30px"><br>
+    Peak Load Expected in Island (Watts)
+    <input type="text" name="par24" value="127000" style="width: 46px"><br>
+
+
+    Upper Limit of BESS Maximum SoE in GFM Mode (Wh)
+    <input type="text" name="par25" value="999000" style="width: 46px"><br>
+    Lower Limit of BESS Maximum SoE in GFM Mode (Wh)
+    <input type="text" name="par26" value="990000" style="width: 46px"><br>
+    
+    Generator Base Load in Island (Watt)
+    <input type="text" name="par27" value="25000" style="width: 46px"><br>    
+    Grid Healthy Vmin (Volts)
+    <input type="text" name="par28" value="456" style="width: 46px"><br>    
+    Grid Healthy Vmax (Volts)
+    <input type="text" name="par29" value="504" style="width: 46px"><br>    
+    Grid Healthy Fmin (Hz)
+    <input type="text" name="par30" value="59.9" style="width: 46px"><br>
+    Grid Healthy Fmax (Hz)
+    <input type="text" name="par31" value="60.1" style="width: 46px"><br>    
+    
+    Grid Healthy Duration (Seconds)
+    <input type="text" name="par32" value="5" style="width: 46px"><br>   
+ 
+ 
+ 
+    
+    Auto-Islanding Enable(1)/Disable(0)
+    <input type="text" name="par33" value="0" style="width: 18px"><br>    
+
+    Auto-Resync to Grid Enable(1)/Disable(0)
+    <input type="text" name="par34" value="1" style="width: 18px"><br>
+    
+    Closed Transition Resync to Grid Enable(1)/Disable(0)
+    <input type="text" name="par35" value="1" style="width: 18px"><br>
+    
+    Manual Island Command
+    <input type="text" name="par36" value="0" style="width: 18px"><br>
+    
+    Resync to Grid Command
+    <input type="text" name="par37" value="0" style="width: 18px"><br>
+    
+    BESS to Genset GFM Transfer Command
+    <input type="text" name="par38" value="0" style="width: 18px"><br>    
+    
+    Genset to BESS GFM Transfer Command
+    <input type="text" name="par39" value="0" style="width: 18px"><br>
+    
+    POI Breaker Close Command
+    <input type="text" name="par40" value="0" style="width: 18px"><br>
+    
+    POI Breaker Open Command
+    <input type="text" name="par41" value="0" style="width: 18px"><br>
+    
+    User Shutdown Command
+    <input type="text" name="par42" value="0" style="width: 18px"><br>
+    
+         
+    
+    <input type="submit" value="Submit Parameters">
+    </form>
+    </div>
+    </BODY>
+    </HTML>
+    
+    
+    
+    
+     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,9 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[bootloader, destination_cpu = a53-0]C:\Users\fahad\OneDrive\FPGA_SoC_Development\Working\btmems_zcu104\linux_domain\zynqmp_fsbl.elf
+	[pmufw_image]C:\Users\fahad\OneDrive\FPGA_SoC_Development\Working\btmems_zcu104\linux_domain\pmufw.elf
+	[destination_device = pl]C:\Users\fahad\OneDrive\FPGA_SoC_Development\Working\btmems_zcu104\btmems_zcu104.runs\impl_1\zcu104_wrapper.bit
+	[destination_cpu = a53-0, exception_level = el-3, trustzone]C:\Users\fahad\OneDrive\FPGA_SoC_Development\Working\btmems_zcu104\linux_domain\bl31.elf
+	[destination_cpu = a53-0, exception_level = el-2]C:\Users\fahad\OneDrive\FPGA_SoC_Development\Working\btmems_zcu104\linux_domain\u-boot.elf
+}

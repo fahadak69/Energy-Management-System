@@ -1,0 +1,294 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.0",
+   "Default View_TopLeft":"3197,467",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.5.8 2022-09-21 7111 VDI=41 GEI=38 GUI=JA:10.0
+#  -string -flagsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 5 -x 2260 -y 940 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 5 -x 2260 -y 2140 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 5 -x 2260 -y 2240 -defaultsOSRD
+preplace inst xlslice_3 -pg 1 -lvl 5 -x 2260 -y 2340 -defaultsOSRD
+preplace inst xlslice_4 -pg 1 -lvl 5 -x 2260 -y 2440 -defaultsOSRD
+preplace inst xlslice_5 -pg 1 -lvl 5 -x 2260 -y 2640 -defaultsOSRD
+preplace inst xlslice_6 -pg 1 -lvl 5 -x 2260 -y 2540 -defaultsOSRD
+preplace inst xlslice_7 -pg 1 -lvl 5 -x 2260 -y 3040 -defaultsOSRD
+preplace inst xlslice_8 -pg 1 -lvl 8 -x 5820 -y 520 -defaultsOSRD
+preplace inst xlslice_9 -pg 1 -lvl 8 -x 5820 -y 880 -defaultsOSRD
+preplace inst xlslice_10 -pg 1 -lvl 8 -x 5820 -y 2280 -defaultsOSRD -orient R180
+preplace inst xlslice_11 -pg 1 -lvl 8 -x 5820 -y 2380 -defaultsOSRD -orient R180
+preplace inst xlslice_12 -pg 1 -lvl 5 -x 2260 -y 2740 -defaultsOSRD
+preplace inst xlslice_13 -pg 1 -lvl 5 -x 2260 -y 2840 -defaultsOSRD
+preplace inst xlslice_14 -pg 1 -lvl 5 -x 2260 -y 2940 -defaultsOSRD
+preplace inst asset_dispatch_0 -pg 1 -lvl 9 -x 6300 -y 2920 -defaultsOSRD
+preplace inst bess_msi_0 -pg 1 -lvl 5 -x 2260 -y 400 -defaultsOSRD -resize 565 952
+preplace inst meter_msi_0 -pg 1 -lvl 7 -x 5000 -y 1090 -defaultsOSRD
+preplace inst relay_msi_0 -pg 1 -lvl 10 -x 7260 -y 2590 -defaultsOSRD
+preplace inst genset_msi_0 -pg 1 -lvl 10 -x 7260 -y 810 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -x 110 -y 2410 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 6 -x 3720 -y 690 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 6 -x 3720 -y 930 -defaultsOSRD
+preplace inst axi_cdma_0 -pg 1 -lvl 4 -x 1470 -y 2680 -defaultsOSRD
+preplace inst blk_mem_gen_1 -pg 1 -lvl 9 -x 6300 -y 1040 -defaultsOSRD
+preplace inst blk_mem_gen_0 -pg 1 -lvl 9 -x 6300 -y 660 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 3 -x 1160 -y 2420 -defaultsOSRD
+preplace inst xlconstant_axcache -pg 1 -lvl 4 -x 1470 -y 2810 -defaultsOSRD
+preplace inst xlconstant_axprot -pg 1 -lvl 4 -x 1470 -y 2910 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 4 -x 1470 -y 2450 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 5 -x 2260 -y 3230 -defaultsOSRD
+preplace inst rst_ps8_0_100M -pg 1 -lvl 2 -x 660 -y 2840 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 2 -x 660 -y 2280 -defaultsOSRD
+preplace inst load_following_0 -pg 1 -lvl 8 -x 5820 -y 2700 -defaultsOSRD
+preplace inst island_resync_0 -pg 1 -lvl 10 -x 7260 -y 1700 -defaultsOSRD
+preplace inst pv_msi_0 -pg 1 -lvl 5 -x 2260 -y 3630 -defaultsOSRD -resize 719 562
+preplace inst pspl_bramctrl_0 -pg 1 -lvl 6 -x 3720 -y 2580 -defaultsOSRD
+preplace inst load_follow_0 -pg 1 -lvl 8 -x 5820 -y 3370 -defaultsOSRD
+preplace netloc Net 1 5 1 3070J 940n
+preplace netloc asset_dispatch_0_bess_p_w 1 4 6 1880 1000 2820 180 N 180 N 180 N 180 6470
+preplace netloc asset_dispatch_0_bess_pvld_w 1 4 6 1870 1010 2750 0 N 0 N 0 N 0 6480
+preplace netloc asset_dispatch_0_gen_opmod_w 1 9 1 6690 830n
+preplace netloc asset_dispatch_0_gen_opmodvld_w 1 9 1 6720 850n
+preplace netloc asset_dispatch_0_gen_run_w 1 9 1 6730 870n
+preplace netloc asset_dispatch_0_gen_runvld_w 1 9 1 6740 890n
+preplace netloc asset_dispatch_0_pv_p_w 1 4 6 1800 1220 2880J 10 NJ 10 NJ 10 NJ 10 6490
+preplace netloc asset_dispatch_0_pv_pvld_w 1 4 6 1820 1230 2900J 20 NJ 20 NJ 20 NJ 20 6500
+preplace netloc asset_dispatch_0_sec_cntr 1 9 1 6800 1200n
+preplace netloc asset_dispatch_0_usr_shutdown_1shot 1 9 1 6960 2240n
+preplace netloc axi_bram_ctrl_0_bram_addr_a 1 6 2 4110 520 N
+preplace netloc axi_bram_ctrl_0_bram_clk_a 1 6 3 4130 590 N 590 6030J
+preplace netloc axi_bram_ctrl_0_bram_en_a 1 6 3 4150 620 N 620 NJ
+preplace netloc axi_bram_ctrl_0_bram_rst_a 1 6 3 4160 640 N 640 NJ
+preplace netloc axi_bram_ctrl_0_bram_we_a 1 6 3 4170 660 N 660 NJ
+preplace netloc axi_bram_ctrl_0_bram_wrdata_a 1 6 3 4120 580 N 580 NJ
+preplace netloc axi_bram_ctrl_1_bram_addr_a 1 6 2 4220 850 5450
+preplace netloc axi_bram_ctrl_1_bram_clk_a 1 6 3 4200 830 5490 940 NJ
+preplace netloc axi_bram_ctrl_1_bram_en_a 1 6 3 4260 1330 5250 1000 NJ
+preplace netloc axi_bram_ctrl_1_bram_rst_a 1 6 3 4240 1340 5260 1020 NJ
+preplace netloc axi_bram_ctrl_1_bram_we_a 1 6 3 4170 1380 5280 1040 NJ
+preplace netloc axi_bram_ctrl_1_bram_wrdata_a 1 6 3 4240 840 5440 960 NJ
+preplace netloc axi_cdma_0_cdma_introut 1 0 5 10 2060 NJ 2060 NJ 2060 NJ 2060 1620
+preplace netloc axi_gpio_0_ip2intc_irpt 1 0 5 20 2070 NJ 2070 NJ 2070 NJ 2070 1610
+preplace netloc bess_msi_0_bess_flt_crlgc 1 5 5 2800J 190 NJ 190 NJ 190 NJ 190 6840
+preplace netloc bess_msi_0_bess_gfm_stat_crlgc 1 5 5 2640J 30 NJ 30 NJ 30 NJ 30 6900
+preplace netloc bess_msi_0_bess_islandmode_w_psplbram 1 5 1 2660 240n
+preplace netloc bess_msi_0_bess_islandmodefrq_r_crlgc 1 5 5 2780J 50 NJ 50 NJ 50 NJ 50 6820
+preplace netloc bess_msi_0_bess_islandmodefrq_w_psplbram 1 5 1 2970 320n
+preplace netloc bess_msi_0_bess_islandmodefrqvld_w_psplbram 1 5 1 2950 360n
+preplace netloc bess_msi_0_bess_islandmodevld_w_psplbram 1 5 1 3000 280n
+preplace netloc bess_msi_0_bess_islandmodevolt_r_crlgc 1 5 5 2730J -10 NJ -10 NJ -10 NJ -10 6870
+preplace netloc bess_msi_0_bess_islandmodevolt_vld_w_psplbram 1 5 1 2910 440n
+preplace netloc bess_msi_0_bess_islandmodevolt_w_psplbram 1 5 1 2930 400n
+preplace netloc bess_msi_0_bess_maxchgpwr_r_crlgc 1 5 5 2740J 40 NJ 40 5510 2110 N 2110 6600
+preplace netloc bess_msi_0_bess_maxdschgpwr_r_crlgc 1 5 5 2760J 60 NJ 60 5500J 2120 NJ 2120 N
+preplace netloc bess_msi_0_bess_p_w_psplbram 1 5 1 2690 50n
+preplace netloc bess_msi_0_bess_pf_w_psplbram 1 5 1 2670 160n
+preplace netloc bess_msi_0_bess_pvld_w_psplbram 1 5 1 2650 80n
+preplace netloc bess_msi_0_bess_q_w_psplbram 1 5 1 3120 120n
+preplace netloc bess_msi_0_bess_qtyp_w_psplbram 1 5 1 3060 200n
+preplace netloc bess_msi_0_bess_rdata_vld_crlgc 1 5 3 2810J 70 NJ 70 5430
+preplace netloc bess_msi_0_bess_run_w_psplbram 1 5 1 2720 -10n
+preplace netloc bess_msi_0_bess_runvld_w_psplbram 1 5 1 2710 20n
+preplace netloc bess_msi_0_bess_soc_r_crlgc 1 5 3 2770J 80 NJ 80 5480
+preplace netloc bess_msi_0_bess_wh_r_crlgc 1 5 5 2790J 90 NJ 90 NJ 90 NJ 90 6890
+preplace netloc blk_mem_gen_0_douta 1 6 3 4140 600 N 600 NJ
+preplace netloc blk_mem_gen_0_doutb 1 5 4 3500 430 NJ 430 N 430 6020
+preplace netloc blk_mem_gen_1_douta 1 6 3 4210 820 N 820 6100J
+preplace netloc blk_mem_gen_1_doutb 1 5 4 3380 100 NJ 100 N 100 6110
+preplace netloc genset_msi_0_gen_flt_crlgc 1 9 2 6930 650 7540
+preplace netloc genset_msi_0_gen_gfm_stat_crlgc 1 9 2 6940 660 7610
+preplace netloc genset_msi_0_gen_opmod_w_psplbram 1 5 6 3400 110 NJ 110 NJ 110 NJ 110 NJ 110 7530
+preplace netloc genset_msi_0_gen_opmodvld_w_psplbram 1 5 6 3420 120 NJ 120 NJ 120 NJ 120 NJ 120 7700
+preplace netloc genset_msi_0_gen_p_w_psplbram 1 5 6 3450 130 NJ 130 NJ 130 NJ 130 NJ 130 7510
+preplace netloc genset_msi_0_gen_pvld_w_psplbram 1 5 6 3460 140 NJ 140 NJ 140 NJ 140 NJ 140 7600
+preplace netloc genset_msi_0_gen_q_w_psplbram 1 5 6 3470 150 NJ 150 NJ 150 NJ 150 NJ 150 7650
+preplace netloc genset_msi_0_gen_qvld_w_psplbram 1 5 6 3440 200 NJ 200 NJ 200 NJ 200 NJ 200 7680
+preplace netloc genset_msi_0_gen_run_w_psplbram 1 5 6 3480 210 NJ 210 NJ 210 NJ 210 NJ 210 7520
+preplace netloc genset_msi_0_gen_runvld_w_psplbram 1 5 6 3490 220 NJ 220 NJ 220 NJ 220 NJ 220 7660
+preplace netloc island_resync_0_bess_gfmcmd_crlgc 1 4 7 1860 1020 2850J 230 NJ 230 NJ 230 NJ 230 NJ 230 7550
+preplace netloc island_resync_0_bess_gfmexit_crlgc 1 4 7 1850 1030 2860J 240 NJ 240 NJ 240 NJ 240 NJ 240 7640
+preplace netloc island_resync_0_bess_islandmodefrq_w_crlgc 1 4 7 1830 1040 2840J 170 NJ 170 NJ 170 NJ 170 NJ 170 7670
+preplace netloc island_resync_0_bess_islandmodefrqvld_w_crlgc 1 4 7 1810 1050 2830J 160 NJ 160 NJ 160 NJ 160 NJ 160 7690
+preplace netloc island_resync_0_bess_islandmodevolt_w_crlgc 1 4 7 1800 1060 2870J 250 NJ 250 NJ 250 NJ 250 NJ 250 7570
+preplace netloc island_resync_0_bess_islandmodevoltvld_w_crlgc 1 4 7 1790 1070 2890J 260 NJ 260 NJ 260 NJ 260 NJ 260 7630
+preplace netloc island_resync_0_gen_gfmcmd 1 8 3 6130 1320 6700J 1090 7530
+preplace netloc island_resync_0_gen_gfmshut 1 8 3 6090 1290 6680J 1100 7600
+preplace netloc island_resync_0_island_state_sig 1 8 3 6100 1300 6610J 990 7700
+preplace netloc island_resync_0_pv_p_isl 1 8 3 6120 1250 6570J 1000 7540
+preplace netloc island_resync_0_pv_pisl_vld 1 8 3 6110 1310 6670J 1020 7680
+preplace netloc island_resync_0_rly_brkclvld_w_crlgc 1 9 2 6980 1050 7650
+preplace netloc island_resync_0_rly_brkopvld_w_crlgc 1 9 2 7000 1070 7610
+preplace netloc island_resync_0_rly_poibrkcl_crlgc 1 9 2 6990 1060 7520
+preplace netloc island_resync_0_rly_poibrkop_crlgc 1 9 2 7010 1080 7510
+preplace netloc load_follow_0_bess_p_w 1 8 1 6040 2810n
+preplace netloc load_follow_0_bess_pvld_w 1 8 1 6060 2830n
+preplace netloc load_follow_0_pv_p_w 1 8 1 6070 2890n
+preplace netloc load_follow_0_pv_pvld_w 1 8 1 6080 2910n
+preplace netloc load_following_0_bess_p_w 1 8 1 6010 2690n
+preplace netloc load_following_0_bess_pvld_w 1 8 1 6000 2710n
+preplace netloc meter_msi_0_meter_bess_3p_crlgc 1 7 3 5250J 450 NJ 450 6850
+preplace netloc meter_msi_0_meter_bess_rdatavld_crlgc 1 7 3 5240J 440 NJ 440 6860
+preplace netloc meter_msi_0_meter_gen_3p_crlgc 1 7 3 NJ 990 6050J 1330 6790
+preplace netloc meter_msi_0_meter_gen_rdatavld_crlgc 1 7 3 NJ 1010 6020J 1340 6780
+preplace netloc meter_msi_0_meter_poi_3p_crlgc 1 7 3 5340J 1270 NJ 1270 6710
+preplace netloc meter_msi_0_meter_poi_freq_crlgc 1 7 3 NJ 1250 6010J 1280 N
+preplace netloc meter_msi_0_meter_poi_rdatavld_crlgc 1 7 3 5240J 1260 6000J 1240 6620
+preplace netloc meter_msi_0_meter_poi_vab_crlgc 1 7 3 NJ 1190 6040J 1260 N
+preplace netloc meter_msi_0_meter_pv_3p_crlgc 1 7 3 5230J 420 NJ 420 6830
+preplace netloc meter_msi_0_meter_pv_rdatavld_crlgc 1 7 3 NJ 970 6030J 1350 6770
+preplace netloc pspl_bramctrl_0_bess_fault_r 1 4 3 1780 1080 2920J 450 4080
+preplace netloc pspl_bramctrl_0_bess_islandmode_r 1 4 3 1760 1100 2940J 440 3960
+preplace netloc pspl_bramctrl_0_bess_islandmodefrq_r 1 4 3 1750 1110 2960J 460 4070
+preplace netloc pspl_bramctrl_0_bess_islandmodevolt_r 1 4 3 1770 1090 3090J 560 3940
+preplace netloc pspl_bramctrl_0_bess_maxchgpwr_r 1 4 3 1740 1120 2990J 470 4060
+preplace netloc pspl_bramctrl_0_bess_maxdschgpwr_r 1 4 3 1730 1130 3020J 480 4050
+preplace netloc pspl_bramctrl_0_bess_rdata_vld 1 4 3 1720 1140 3050J 490 3970
+preplace netloc pspl_bramctrl_0_bess_soc_r 1 4 3 1710 1150 3080J 500 4040
+preplace netloc pspl_bramctrl_0_bess_status_r 1 4 3 1700 1160 3110J 510 4010
+preplace netloc pspl_bramctrl_0_bess_wh_r 1 4 3 1690 1170 3140J 520 3950
+preplace netloc pspl_bramctrl_0_bram_addr 1 6 3 4180 700 N 700 NJ
+preplace netloc pspl_bramctrl_0_bram_dout 1 6 3 4190 740 N 740 NJ
+preplace netloc pspl_bramctrl_0_bram_enb 1 6 3 4230 780 N 780 NJ
+preplace netloc pspl_bramctrl_0_bram_web 1 6 3 4250 800 N 800 NJ
+preplace netloc pspl_bramctrl_0_bramw_addr 1 6 3 4450 1350 5270 1080 NJ
+preplace netloc pspl_bramctrl_0_bramw_dout 1 6 3 4430 1360 5290 1120 NJ
+preplace netloc pspl_bramctrl_0_bramw_enb 1 6 3 4440 1390 5320 1160 NJ
+preplace netloc pspl_bramctrl_0_bramw_web 1 6 3 4470 1370 5300 1180 NJ
+preplace netloc pspl_bramctrl_0_gen_fault_r 1 6 4 4290 460 NJ 460 NJ 460 6880J
+preplace netloc pspl_bramctrl_0_gen_rdata_vld 1 6 4 4280 400 NJ 400 NJ 400 6910J
+preplace netloc pspl_bramctrl_0_gen_status_r 1 6 4 4270 410 NJ 410 NJ 410 6920J
+preplace netloc pspl_bramctrl_0_meter_bess_3p 1 6 1 4370 940n
+preplace netloc pspl_bramctrl_0_meter_gen_3p 1 6 1 4420 980n
+preplace netloc pspl_bramctrl_0_meter_poi_3p 1 6 1 4300 1000n
+preplace netloc pspl_bramctrl_0_meter_poi_3q 1 6 1 4310 1020n
+preplace netloc pspl_bramctrl_0_meter_poi_3s 1 6 1 4320 1040n
+preplace netloc pspl_bramctrl_0_meter_poi_freq 1 6 1 4490 1220n
+preplace netloc pspl_bramctrl_0_meter_poi_ia 1 6 1 4340 1080n
+preplace netloc pspl_bramctrl_0_meter_poi_ib 1 6 1 4350 1100n
+preplace netloc pspl_bramctrl_0_meter_poi_ic 1 6 1 4360 1120n
+preplace netloc pspl_bramctrl_0_meter_poi_in 1 6 1 4380 1140n
+preplace netloc pspl_bramctrl_0_meter_poi_pf 1 6 1 4330 1060n
+preplace netloc pspl_bramctrl_0_meter_poi_vab 1 6 1 4410 1160n
+preplace netloc pspl_bramctrl_0_meter_poi_vbc 1 6 1 4460 1180n
+preplace netloc pspl_bramctrl_0_meter_poi_vca 1 6 1 4480 1200n
+preplace netloc pspl_bramctrl_0_meter_pv_3p 1 6 1 4400 960n
+preplace netloc pspl_bramctrl_0_meter_rdata_vld 1 6 1 4500 1240n
+preplace netloc pspl_bramctrl_0_pv_fault_r 1 4 3 1880 1300 3180J 530 4030
+preplace netloc pspl_bramctrl_0_pv_rdata_vld 1 4 3 1830 1190 3150J 540 3980
+preplace netloc pspl_bramctrl_0_pv_status_r 1 4 3 1810 1180 3160J 550 4000
+preplace netloc pspl_bramctrl_0_pv_var_r 1 4 3 1850 1200 3040J 420 3990
+preplace netloc pspl_bramctrl_0_pv_watt_r 1 4 3 1860 1210 3010J 390 4100
+preplace netloc pspl_bramctrl_0_pv_wattsp_r 1 4 3 1870 1290 3130J 410 4090
+preplace netloc pspl_bramctrl_0_pv_yield_r 1 4 3 1840 1280 3100J 400 4020
+preplace netloc pspl_bramctrl_0_rly_bfrq_r 1 6 4 NJ 2140 NJ 2140 NJ 2140 6530
+preplace netloc pspl_bramctrl_0_rly_bvab_r 1 6 4 NJ 2060 NJ 2060 6010J 2070 6560
+preplace netloc pspl_bramctrl_0_rly_bvbc_r 1 6 4 NJ 2080 NJ 2080 NJ 2080 6550
+preplace netloc pspl_bramctrl_0_rly_bvca_r 1 6 4 NJ 2100 NJ 2100 NJ 2100 6540
+preplace netloc pspl_bramctrl_0_rly_hwerr_r 1 6 4 NJ 1980 NJ 1980 NJ 1980 6610
+preplace netloc pspl_bramctrl_0_rly_ioltchsv_r 1 6 4 NJ 1960 NJ 1960 NJ 1960 6620
+preplace netloc pspl_bramctrl_0_rly_lfrq_r 1 6 4 NJ 2120 5350J 2150 NJ 2150 6520
+preplace netloc pspl_bramctrl_0_rly_lvab_r 1 6 4 NJ 2000 5400J 2010 NJ 2010 6590
+preplace netloc pspl_bramctrl_0_rly_lvbc_r 1 6 4 NJ 2020 NJ 2020 NJ 2020 6580
+preplace netloc pspl_bramctrl_0_rly_lvca_r 1 6 4 NJ 2040 NJ 2040 NJ 2040 6570
+preplace netloc pspl_bramctrl_0_rly_protstat_r 1 6 4 NJ 1940 NJ 1940 NJ 1940 6670
+preplace netloc pspl_bramctrl_0_rly_rdata_vld 1 6 4 NJ 2160 NJ 2160 NJ 2160 6510
+preplace netloc pspl_bramctrl_0_usr_auto_resync 1 6 4 4720 1880 NJ 1880 NJ 1880 NJ
+preplace netloc pspl_bramctrl_0_usr_autoislnd_en 1 6 4 4690 1820 NJ 1820 NJ 1820 NJ
+preplace netloc pspl_bramctrl_0_usr_bess2gen_trnsf 1 6 4 4700 1840 NJ 1840 NJ 1840 NJ
+preplace netloc pspl_bramctrl_0_usr_bess_en 1 6 4 N 3540 5370J 1620 NJ 1620 NJ
+preplace netloc pspl_bramctrl_0_usr_bess_gfmprio 1 6 4 4650 1640 NJ 1640 NJ 1640 NJ
+preplace netloc pspl_bramctrl_0_usr_bess_kd 1 6 2 N 3340 5640
+preplace netloc pspl_bramctrl_0_usr_bess_ki 1 6 2 N 3320 5630
+preplace netloc pspl_bramctrl_0_usr_bess_kp 1 6 2 N 3300 5620
+preplace netloc pspl_bramctrl_0_usr_bess_maxsoc 1 6 2 N 3420 5580
+preplace netloc pspl_bramctrl_0_usr_bess_minsoc 1 6 2 N 3440 5590
+preplace netloc pspl_bramctrl_0_usr_besschrg_lmt 1 6 2 N 3260 5600
+preplace netloc pspl_bramctrl_0_usr_bessdsch_lmt 1 6 2 N 3280 5610
+preplace netloc pspl_bramctrl_0_usr_bessislnd_maxwh_ll 1 6 4 4530 1520 NJ 1520 NJ 1520 NJ
+preplace netloc pspl_bramctrl_0_usr_bessislnd_maxwh_ul 1 6 4 4520 1500 NJ 1500 NJ 1500 NJ
+preplace netloc pspl_bramctrl_0_usr_bessislnd_minwh 1 6 4 4510 1480 NJ 1480 NJ 1480 NJ
+preplace netloc pspl_bramctrl_0_usr_bessislndext_minwh 1 6 4 4540 1540 NJ 1540 NJ 1540 NJ
+preplace netloc pspl_bramctrl_0_usr_cltrns_resync 1 6 4 4730 1900 NJ 1900 NJ 1900 NJ
+preplace netloc pspl_bramctrl_0_usr_ctrl_mode 1 6 3 N 3500 5560 3000 6010J
+preplace netloc pspl_bramctrl_0_usr_exp_lmt 1 6 2 N 3240 5230
+preplace netloc pspl_bramctrl_0_usr_exp_prio 1 6 2 N 3520 5220
+preplace netloc pspl_bramctrl_0_usr_gen2bess_trnsf 1 6 4 4710 1860 NJ 1860 NJ 1860 NJ
+preplace netloc pspl_bramctrl_0_usr_gen_baseld 1 6 4 4640 1950 NJ 1950 NJ 1950 6750J
+preplace netloc pspl_bramctrl_0_usr_gen_en 1 6 4 4660 1780 NJ 1780 NJ 1780 NJ
+preplace netloc pspl_bramctrl_0_usr_gen_gfmprio 1 6 4 4670 1660 NJ 1660 NJ 1660 NJ
+preplace netloc pspl_bramctrl_0_usr_grdhlthy_dur 1 6 4 4630 1760 NJ 1760 NJ 1760 NJ
+preplace netloc pspl_bramctrl_0_usr_grdhlthy_fmax 1 6 4 4610 1740 NJ 1740 NJ 1740 NJ
+preplace netloc pspl_bramctrl_0_usr_grdhlthy_fmin 1 6 4 4600 1720 NJ 1720 NJ 1720 NJ
+preplace netloc pspl_bramctrl_0_usr_grdhlthy_vmax 1 6 4 4580 1700 NJ 1700 NJ 1700 NJ
+preplace netloc pspl_bramctrl_0_usr_grdhlthy_vmin 1 6 4 4560 1680 NJ 1680 NJ 1680 NJ
+preplace netloc pspl_bramctrl_0_usr_grid_resync 1 6 4 4680 1800 NJ 1800 NJ 1800 NJ
+preplace netloc pspl_bramctrl_0_usr_imp_lmt 1 6 2 N 3220 5240
+preplace netloc pspl_bramctrl_0_usr_islnd_cmd 1 6 4 4590 1600 NJ 1600 NJ 1600 NJ
+preplace netloc pspl_bramctrl_0_usr_maxld_islnd 1 6 4 4550 1560 NJ 1560 NJ 1560 NJ
+preplace netloc pspl_bramctrl_0_usr_net_load 1 6 2 4620 2670 N
+preplace netloc pspl_bramctrl_0_usr_param_vld 1 6 4 N 4060 5570 2960 6050J 2060 6810
+preplace netloc pspl_bramctrl_0_usr_poibrkcl_cmd 1 6 4 4570 1580 NJ 1580 NJ 1580 NJ
+preplace netloc pspl_bramctrl_0_usr_pv_en 1 6 4 N 3560 5390J 1970 NJ 1970 6780J
+preplace netloc pspl_bramctrl_0_usr_pv_kd 1 6 4 N 3400 5550 2050 N 2050 6780
+preplace netloc pspl_bramctrl_0_usr_pv_ki 1 6 4 N 3380 5540 2000 N 2000 N
+preplace netloc pspl_bramctrl_0_usr_pv_kp 1 6 4 N 3360 5530 1990 N 1990 6780
+preplace netloc pspl_bramctrl_0_usr_pv_max 1 6 4 N 3480 5410 1920 N 1920 N
+preplace netloc pspl_bramctrl_0_usr_shut_down 1 6 3 4740 3010 NJ 3010 6000J
+preplace netloc pspl_bramctrl_0_wcmd_sig 1 6 3 4390J 1400 N 1400 6000
+preplace netloc pv_msi_0_pv_fault_r_corelogic 1 5 3 3170J 270 N 270 5360
+preplace netloc pv_msi_0_pv_p_w_psplbram 1 5 1 3310 2720n
+preplace netloc pv_msi_0_pv_pf_w_psplbram 1 5 1 3340 2780n
+preplace netloc pv_msi_0_pv_pvld_w_psplbram 1 5 1 3320 2740n
+preplace netloc pv_msi_0_pv_q_w_psplbram 1 5 1 3330 2760n
+preplace netloc pv_msi_0_pv_qtyp_w_psplbram 1 5 1 3350 2800n
+preplace netloc pv_msi_0_pv_rdata_vld_corelogic 1 5 3 3190J 280 N 280 5380
+preplace netloc pv_msi_0_pv_run_w_psplbram 1 5 1 3290 2680n
+preplace netloc pv_msi_0_pv_runvld_w_psplbram 1 5 1 3300 2700n
+preplace netloc pv_msi_0_pv_status_r_corelogic 1 5 3 3200J 380 N 380 5330
+preplace netloc pv_msi_0_pv_watt_r_corelogic 1 5 3 2650J 4120 4750 3310 N
+preplace netloc pv_msi_0_pv_wattsp_r_corelogic 1 5 3 3210J 370 N 370 5310
+preplace netloc relay_msi_0_poi_cb_cl 1 9 2 6950 1010 7660
+preplace netloc relay_msi_0_poi_cb_op 1 9 2 6970 1040 7620
+preplace netloc relay_msi_0_rly_brkcl_w_psplbram 1 5 6 3370 310 NJ 310 NJ 310 NJ 310 NJ 310 7590
+preplace netloc relay_msi_0_rly_brkclvld_w_psplbram 1 5 6 3390 320 NJ 320 NJ 320 NJ 320 NJ 320 7720
+preplace netloc relay_msi_0_rly_brkop_w_psplbram 1 5 6 3410 330 NJ 330 NJ 330 NJ 330 NJ 330 7580
+preplace netloc relay_msi_0_rly_brkopvld_w_psplbram 1 5 6 3430 340 NJ 340 NJ 340 NJ 340 NJ 340 7710
+preplace netloc relay_msi_0_rly_oc_prot 1 9 2 6960 1030 7560
+preplace netloc rst_ps8_0_100M_peripheral_aresetn 1 2 8 1020 2270 1330 2270 1650 1270 3280 350 N 350 5420 2950 6030J 2710 6660
+preplace netloc xlconcat_0_dout 1 1 1 200 2310n
+preplace netloc xlconstant_0_dout 1 4 1 1630 2810n
+preplace netloc xlconstant_axprot_dout 1 4 1 1620 2910n
+preplace netloc xlslice_10_Dout 1 4 4 1670J 1260 3030J 360 NJ 360 5460
+preplace netloc xlslice_11_Dout 1 4 4 1660J 1250 2980J 290 NJ 290 5520
+preplace netloc xlslice_12_Dout 1 5 1 3250J 2300n
+preplace netloc xlslice_13_Dout 1 5 1 3260J 2320n
+preplace netloc xlslice_14_Dout 1 5 1 3270J 2340n
+preplace netloc xlslice_1_Dout 1 5 1 3030J 2140n
+preplace netloc xlslice_2_Dout 1 5 1 2680J 2200n
+preplace netloc xlslice_3_Dout 1 5 1 3220J 2220n
+preplace netloc xlslice_4_Dout 1 5 1 2700J 2240n
+preplace netloc xlslice_5_Dout 1 5 1 2680J 2280n
+preplace netloc xlslice_6_Dout 1 5 1 2730J 2260n
+preplace netloc xlslice_7_Dout 1 5 1 3280J 2380n
+preplace netloc xlslice_8_Dout 1 8 1 6120J 520n
+preplace netloc xlslice_9_Dout 1 8 1 6090J 880n
+preplace netloc zynq_ultra_ps_e_0_emio_gpio_o 1 2 3 960J 2260 NJ 2260 1680
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 1 9 360 2380 1000 2280 1320 2280 1640 1240 3270 300 N 300 5470 710 6080 430 6760
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 1 2 350 2390 960
+preplace netloc axi_cdma_0_M_AXI 1 4 1 1660 2670n
+preplace netloc axi_smc_M00_AXI 1 1 5 360 2080 NJ 2080 NJ 2080 NJ 2080 2640
+preplace netloc axi_smc_M01_AXI 1 5 1 3230 670n
+preplace netloc axi_smc_M02_AXI 1 5 1 3240 910n
+preplace netloc ps8_0_axi_periph_M00_AXI 1 3 1 1300 2410n
+preplace netloc ps8_0_axi_periph_M01_AXI 1 3 1 N 2430
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 2 1 1010 2240n
+levelinfo -pg 1 -170 110 660 1160 1470 2260 3720 5000 5820 6300 7260 7780
+pagesize -pg 1 -db -bbox -sgen -170 -100 7780 4130
+"
+}
+{
+   "da_axi4_cnt":"8",
+   "da_board_cnt":"2",
+   "da_bram_cntlr_cnt":"2",
+   "da_clkrst_cnt":"16",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
